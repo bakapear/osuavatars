@@ -33,6 +33,6 @@ got(url).then(async r => {
             return links
         })
         arr = [].concat.apply([], arr)
-        fs.writeFileSync("data.json", JSON.stringify({ url: "https://www.osustuff.org", items: arr }, null, 4))
+        fs.writeFileSync("data.json", JSON.stringify({ date: Date.now(), url: "https://www.osustuff.org", items: arr }, null, 4))
     })
 })
