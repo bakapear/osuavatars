@@ -1,3 +1,4 @@
-# osuavatars
+# osu!avatars
+Fetches various osu! avatar base images from https://www.osustuff.org/.
 
-[Purr PicGrid](https://purr.now.sh/picgrid)
+Check out the results here: [purr/picgrid](https://purr.now.sh/picgrid) (might be NSFW)
